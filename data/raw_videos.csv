@@ -1,0 +1,929 @@
+video_id,title,description,published_at,views,likes,playlist_id
+SrtmQma106g,Welcome to Voxxed Days Amsterdam 2025 (room 1),"In this video, Ko Turk and Simone de Gijt welcome you to the conference! 👋
+
+To give every attendee a unique live experience (and avoid overflow rooms where you're just staring at a screen), we hosted two welcomes and two keynotes simultaneously in different rooms. That way, everyone gets to experience the event's energy, live and in person. 🔥
+
+Enjoy the show",2025-04-17T09:01:15Z,737,6,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+YFDBKkEUbE8,"Fail more, learn more! by Sander Mak","Nobody likes failure. And that's a problem!
+
+As developers we tend to experience failure repeatedly. From breaking builds to production outages, from buggy features to startups that fold: failure always lurks around the corner. What if, instead of trying to avoid or minimise failure, we embrace it? We'll learn this requires at least a different mindset, and in most cases a different approach to dealing with failures.
+
+Join this keynote to see how failure might actually help you to learn and grow as developer!",2025-04-07T13:45:23Z,1174,16,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+EF0utohGFqA,Welcome to Voxxed Days Amsterdam 2025 (room 2),"In this video, Michel Schudel and Kaya Weers welcome you to the conference! 👋
+
+To give every attendee a unique live experience (and avoid overflow rooms where you're just staring at a screen), we hosted two welcomes and two keynotes simultaneously in different rooms. That way, everyone gets to experience the event's energy, live and in person. 🔥
+
+Enjoy the show",2025-04-17T08:50:05Z,174,0,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+DYhbNSGUQKc,How to survive as a developer in the exponential age of AI by Sander Hoogendoorn,"Artificial intelligence is advancing at an unprecedented pace, transforming the software development landscape. While AI currently serves as an assistant, the emergence of autonomous AI raises significant questions about its impact on developers. Will we be replaced by AGI, agentic AI, or the next energy-adsorbing, hyped breakthrough from OpenAI, Meta, or Google? What exactly is vibe coding? And can we stay ahead, adapt, and lead in this AI-driven world?
+
+In his signature charismatic style, Sander Hoogendoorn, CTO at iBOOD.com and a seasoned developer with over four decades of experience, confronts these pressing issues head-on. He will explore the tangible benefits AI offers developers and critically assess how AI reshapes our approaches to work, learning, and innovation. What can AI truly do for developers today?
+
+The discussion will delve into code quality, balancing short-term gains with long-term maintainability, new forms of technical debt, and understanding who uses which tools and why. Most importantly, he will address the looming question: Will AI replace developers, or can we harness its (often hallucinating) power to tackle even more significant challenges and even more quickly resolve larger business problems?
+
+Join this thought-provoking session to cut through the hype, challenge prevailing assumptions, and discover how you, as a developer, can not only survive but thrive in the exponential age of AI.",2025-04-07T13:45:19Z,853,22,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+mHEVLndYvko,Programming's Greatest Mistakes by Mark Rendle,"Most of the time when we make mistakes in our code, a message gets displayed wrong or an invoice doesn’t get sent. But sometimes when people make mistakes in code, things literally explode, or bankrupt companies, or make web development a living hell for millions of programmers for years to come.
+
+Join Mark on a tour through some of the worst mistakes in the history of programming. Learn what went wrong, why it went wrong, how much it cost, and how these things can be really funny when they’re not happening to you.",2025-04-07T13:45:26Z,933,19,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+i3deSBTeLS0,Hunting with Stream Gatherers by Piotr Przybył,"Streams were a very nice addition to Java 8, based on lambdas. They allow streamlined data processing without side effects, taking us gently towards functional style. With newer additions to Java, like records and pattern matching, they shine even more in data-driven flows.
+However, they don’t come without flaws.
+For starters, the only available extension point was collectors: if your needs for gathering data weren’t satisfied by the whole Collectors ZOO, you could always fall back to creating your own Collector. However, if map, filter or flatMap weren’t enough, you couldn’t add your own intermediate operation.
+Secondly, parallel streams were limited to ForkJoin pool, effectively rendering them unusable for scenarios involving any IO.
+Since Java 24, Stream Gatherers will be our extension point for intermediate operations in streams.
+If you’d like to comprehend how they work, find nice use cases and hunt for more performance, this talk is for you.",2025-04-07T13:45:23Z,280,9,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+Xex0-qG_bVA,Who Instruments the Instrumenters? by Johannes Bechberger,"Ever wonder how libraries like Spring, Mockito, and JaCoCo add arbitrary behavior to existing objects or even modify them altogether? We’ll demystify class generation and transformation in Java, exploring how the JVM allows us to dynamically generate and modify code for instrumentation.
+
+Through concrete examples from real-world applications, we'll uncover how these techniques enhance and instrument Java code, from creating dynamic proxies to altering bytecode at runtime. You’ll gain an inside look at decompiled bytecode to understand the magic happening behind the scenes.
+
+By the end of this session, you'll see how Java agents and instrumentation can streamline your development process and make code manipulation both effective and enjoyable.",2025-04-07T13:45:23Z,274,5,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+Rc6m_I1RkXM,Continuations: The magic behind virtual threads in Java by Balkrishna Rawool,"Have you wondered how virtual threads in Java are able to provide such high scalability and how is JVM able to switch between so many virtual threads while executing a single platform thread? If you did then this talk is for you.
+
+Continuations is the magic that powers Virtual Threads. A continuation can be viewed as a representation of the current state of the program or it can be viewed as a reference to the rest of the program. It helps us to pause execution of a program (or part thereof) and then resume it later. This ability to pause/resume a program is a powerful mechanism and is the basis for providing virtual threads.
+
+This talk explains what Continuations are and where they are used. But more importantly, we write our own simple VirtualThread class using the Continuation API provided by JDK. This will give you clear idea about the role of continuations in the nature of virtual threads.",2025-04-07T13:45:21Z,564,19,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+QyRjW5WNzN0,Words as weapons: The dark arts of Prompt Engineering.... by Jeroen Egelmeers,"With the rise of """"Co-pilots for everything,"""" our interaction with technology and daily tasks is evolving. Organizations are increasingly integrating LLMs into their applications, enhancing features like search tools, chatbots, and internal information systems.
+
+Chances are, you're already working with Generative AI, or you will be soon. If not directly in the platform you're building, then by using it to boost your productivity. But are you aware of the risks before diving into use cases or development? Curiosity often pushes us to explore boundaries, sometimes finding ways to circumvent """"guardrails."""" These guardrails are designed to prevent misuse, such as asking ChatGPT how to build a bomb. But what happens when clever wordplay tricks LLMs into bypassing these safeguards?
+
+In """"The dark arts of Prompt Engineering,"""" I will take you on a journey. After an intro fully generated by AI, we'll dive into Adversarial Prompting. We’ll discuss what guardrails are, how they function, and how to circumvent them through Prompt Jailbreaking—strictly for educational purposes. Understanding these risks is crucial for knowing when to implement safeguards or rethink your approach. This session goes beyond technical details—it’s about real-world impacts. Let’s learn from the mistakes other companies have already made.
+
+I’ll even attempt to """"hack"""" you LIVE during the session.
+Dare to join and see if I can break through your defenses?
+Let’s find out!",2025-04-07T13:45:21Z,579,9,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+VVUngUrMjAo,Bring the Action: Using GraalVM in Production by Alina Yurenko,"GraalVM has been around for a while, and more and more developers and teams are using it to run Java applications faster, more efficiently, and more securely. According to the latest “State of Spring” survey, 37% of Spring users either already run applications natively compiled GraalVM in production, or are currently evaluating it, and 31% more have such plans.
+For those who haven’t moved to GraalVM yet though, the questions and concerns are usually similar: how hard is it to migrate? Can I use my libraries and tools? How do I deploy and monitor such native applications? What about using the latest Java features?
+In this hands-on session, we’ll talk about all the practical aspects of building and running applications with GraalVM, tooling, monitoring, and using popular libraries, and cover common questions that we get from users.",2025-04-07T13:45:21Z,556,20,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+IYnvxc_Kp9Q,GraalVM in action: Building a Polyglot Rule Engine for Dynamic Business Logic,"By Rick Ossendrijver and Enric Sala
+
+In today's fast-paced tech world, backend systems need to be flexible and self-service to support evolving business needs. For Picnic, this means building a backend that lets operators and analysts directly define and manage the logic driving customer interactions, product personalization and internal workflows. 
+
+Our solution is a Rule Engine platform where operators can easily attach logic and effects to events by creating, testing and managing their own rules. Powered by GraalVM's polyglot capabilities, it allows analysts and other stakeholders to write rules in JavaScript or Python. This event-driven system enables self-service without developer involvement. It handles actions across the Picnic system landscape, from updating customer data to triggering communications.
+
+In this talk, we will discuss the architecture behind our Rule Engine and share some of the challenges we faced with GraalVM’s polyglot capabilities. We will explain how we made Java-based event data accessible in guest languages. In addition, we will show how we provided extra context from our systems to the rules, and designed a simple DSL for data retrieval and action triggering. Finally, we’ll cover how we ensure fairness and maintain performance. 
+
+Come and learn how you can leverage the potential of GraalVM!",2025-04-07T13:45:21Z,957,18,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+7T9fmvY5MzU,Bootiful Spring Boot in 2025 by Josh Long,"Spring Boot 3.4 and Java 24 have arrived, making it an exciting time to be a Java developer!
+
+Join me, Josh Long (@starbuxman), as we dive into the future of Spring Boot with Java in 2025.
+Discover how to scale your applications and codebases effortlessly.
+
+We'll look at:
+how to build more modular (from a software design perspective)
+scalable (from a team and runtime efficiency perspective)
+and efficient codebase using the latest and greatest in the Spring ecosystem.",2025-04-07T13:45:19Z,5520,123,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+dYpbsoZDZoc,YOLO - moving straight to production by Adam Michalik,"Guns blazing, bullets flying - a cowboy attitude is a sure-fire way to blow up your production. In the classic approach we use multiple test environments and separate QA engineers to keep the cowboys at bay. This however requires a complex setup of test data with high coupling between systems and teams, causes constant handovers and a long feedback cycle. The result is often a misguided feeling of confidence when going live.
+
+Alternatively, you can choose the path of a ninja - one that better fits modern software development which relies on autonomous teams, devops skill set and decoupled microservice architecture. At Rabobank hundreds of squads apply various tools and techniques to successfully go straight to production multiple times a day. Based on this experience, I’ll demonstrate ways in which you can shorten your testing chain, reduce the delivery time, enhance the reliability of your system, and go live with confidence while still developing a high-quality product.",2025-04-07T13:45:23Z,502,7,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+pXN1nWL8lkQ,GreenOps and Green Coding - are you optimising the right things? by Oliver Cronk,"In our race to build sustainable technology, we often focus on the wrong metrics or make assumptions about what drives our carbon footprint. This session explores the practical application of the Technology Carbon Standard (TCS) to application development and DevOps, helping developers and architects make informed decisions about sustainable coding practices.
+
+The talk will start with an overview of the impact tech has on the planet.
+Break down the 3 main areas of concern (Upstream, Operational and Downstream) and help identify which are significant in your case.
+Then explore what practical choices you can make to reduce the impact of each of these areas.",2025-04-07T13:45:25Z,288,5,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+qGecMwOt4kE,Streamtoxication: How a Fluent API turns into a Tangled Mess by Victor Rentea,"Should we use streams everywhere? Certainly, using streams is often clearer and more concise than iterating a collection. But sometimes stream code requires a complex combination of collectors, folding, monads, and nested flatMap operations, which makes the verdict debatable. In this session, we will pick several use cases, workout the best solutions in both imperative and functional styles, and then argue which is better. Of course, you'll get to vote!
+If you're a Java developer, you shouldn't miss this session! You'll have fun, replenish your energy, and leave with a better idea of where streams excel, and where you should stay with old-fashioned imperative style.",2025-04-07T13:45:25Z,2039,57,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+zyLP8hFsKo8,Cracking the Code Review by Paco van Beckhoven,"Code reviews are vital for ensuring good code quality and fostering teamwork. They serve as one of our last lines of defense against bugs and subpar code reaching production. Yet, they often turn into annoying tasks riddled with frustration, hostility, unclear feedback and lack of standard practices. How can this crucial process be improved?
+
+Key topics include:
+1. Creating review-friendly pull requests: Demonstrating how to prepare a pull request
+2. Effective code reviews: Showcasing how to approach reviews, provide constructive feedback, and enhance collaboration through positivity.
+3. Using automated tools for quality assurance: Demonstrating tools for code consistency and quality checks - eliminating needless discussions and focusing on core changes.
+
+This session will leave attendees with practical tactics for improving pull requests, performing better code reviews, and a suite of tools to simplify the review process and boost code quality.",2025-04-07T13:45:28Z,5701,51,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+4PUj_XOHhrA,Building AI Agents with Model Context Protocol: From Specification to Implementation,"By Christian Tzolov
+
+The Model Context Protocol (MCP) introduces a powerful approach for AI agent development by standardizing how AI models interact with external tools and resources.
+This talk explores MCP's architecture, diving deep into its core capabilities: tool discovery and execution, resource management with URI templates, and dynamic prompt handling.
+We'll examine how Spring AI MCP - Java MCP SDK, implementation transforms these specifications into practical agent capabilities, demonstrating how to evolve traditional AI applications into full-fledged agents that can interact with external systems, manage resources, and handle complex workflows through standardized interfaces.
+Through live coding examples, we will learn how to combine the Spring AI framework with MCP to create agents that can effectively understand context, make decisions, and take actions across various external systems.",2025-04-07T13:45:19Z,557,10,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+4a7hdNCQgTo,From Zero to AI: Building Smart Java or Kotlin Applications with Spring AI by Christian Tzolov,"Start integrating powerful AI capabilities into your Java and Kotlin applications today.
+Spring AI helps you solve the core challenge of connecting your enterprise Data and APIs with AI models, opening the path to building practical multi-agent automations.
+
+In this session, led by the project lead, we will demonstrate practical use cases through live coding demos.
+You'll learn to implement key Generative AI patterns including Conversation Memory, Tool/Function calling, and Modular RAG (Retrieval Augmented Generation).
+
+We'll explore approaches for building multi-agent systems and leveraging observability through metrics, tracing, and logging to understanding how your systems perform.
+
+The session will also cover techniques for managing AI hallucinations using relevancy and fact-checking evaluators.
+
+By the end of this session, you'll have everything you need to start integrating generative AI into your existing Java and Kotlin applications using Spring AI.",2025-04-07T13:45:19Z,2033,68,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+6lEVtTJrfkI,Mayday Mark 2! More Software Lessons From Aviation Disasters by Adele Carpenter,"What can aviation teach us about software? More specifically, what can aviation disasters teach us? 
+
+A lot actually.
+
+In the first edition of this talk, I focused on the human factor of aviation disasters. An important element of both software engineering and aviation. But that is just the tip of the iceberg.
+
+In this talk, I will go deeper into the technical oddities of some of the most famous aviation disasters. Buckle up for more case studies, more geeky stuff, and yeah, also some more human stuff.
+
+We will cover
+- Most common causes of aviation disasters and how that has changed over time
+- Redundancy in systems
+- Deadly UX
+- Project failures and (wrong) incentives
+
+Despite the subject matter, this talk is not doom and gloom. It is a practical look at the methods and insights that almost 100 years of investigating commercial aviation disasters can teach us as software engineers.",2025-04-07T13:45:19Z,220,2,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+8Js-EPuekHA,"LLMs can't optimize schedules, but AI can! by Tom Cools","GenAI and LLMs are awesome and are perceived by some as the solution for everything. However, when it comes to common tasks like creating schedules they tend to produce unreliable or nonsensical results.
+
+Fortunately, there’s a lesser known branch of AI that excels at complex scheduling: mathematical optimization. We'll discuss why LLMs fail at these tasks, how constraint solving provides a robust alternative and how you can leverage the Open Source Timefold Solver so you don't even have to worry about the math.
+
+You'll see this form of AI in action and walk away with a powerful new tool for your problem-solving toolbox.",2025-04-07T13:45:19Z,434,4,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+CcKPqwRe1_w,wAIred! Learn without AI by Simone de Gijt,"In today's world, artificial intelligence (AI) is transforming the way we learn. This talk will explore how we can use AI tools to enhance our learning experiences. We will try out some AI tools that can help with planning, practicing, researching etc.
+
+But as we embrace these new technologies, we must also ask ourselves: Are we becoming less capable of thinking for ourselves? Do these tools make us smarter, or do they risk dulling our critical thinking skills? This talk will encourage us to think critically about the role of AI in our education. Together, we will discover how to use AI to support our learning journey while still developing our ability to think critically.",2025-04-07T13:45:19Z,177,3,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+D-yvEts1HFQ,"From 0 to H AI ro: Unlock the power of generative AI with Kotlin, LangChain4j and Spring AI","By Urs Peter
+
+The JVM, remains one of the most widely used platforms in enterprises today. But is it fit to leverage the enormous potential (generative) AI offers, with Python being the dominating language in this space?
+
+Join me for an insightful talk where we explore the leading JVM frameworks for AI: Spring AI and LangChain4j. These powerful tools enable millions of Kotlin, Java, Scala, and Groovy developers to tap into the transformative capabilities of generative AI.
+
+Discover how Spring AI and LangChain4j:
+- Effortlessly interact with LLMs across text, audio, images, and video.
+- Leverage semantic search using embeddings and vector databases.
+- Utilize retrieval-augmented generation (RAG) solutions and AI agents to amplify your LLM's potential with your own data and APIs.
+- Differ from each other and where their strengths and weaknesses lie.
+
+While building a real-world working generative AI application on the fly, all the mind-boggling concepts will be explained clearly and concisely, ensuring you learn both the way the frameworks work as well as the underlying AI concepts without prior knowledge.
+
+By the end of this session, you will be ready to conquer the world of generative AI: You will not only understand the concepts behind today’s AI buzzwords but also learn how Spring AI and LangChain4j allow you to unleash the power of this promising technology.
+
+Armed with this knowledge, you’ll be prepared to embrace the future as a H-AI-ro!",2025-04-07T13:45:19Z,440,14,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+H0MSkemXGG4,I wish my manager was a game designer by Sara Larsson,"Mandy was playing Zelda, and she felt super motivated to do all random stuff the game asked her to do. She tried to do it as efficiently as possible, even made a plan on how to approach it. It made her think, if only work was like this....
+
+It is so fun to play video games, you feel incentivized to continue playing, engaged to keep exploring, and rewarded when you complete a quest. Sometimes we will even go out of our way to gather some tedious collectables to make sure we finish the game to 100%. But in comparison, why can work be so boring? Why is it so difficult ourselves to do similar tedious tasks in a work setting when we (gladly) do them in a game?
+
+Sadly we can’t choose our managers, but what would our day look like if it was arranged by a game designer? Sara and Mandy will explore what game techniques help motivate us, and what actually makes game so fun. Based on that we will see what is possible to match to the ‘real world’. How can we improve our workflow and happiness, and what game elements can be combined with other methods?
+
+By the end of the presentation our goal is that you will have an idea of what makes games so engaging, and what steps you can do to make your work more effective and fun. If you are a manager maybe you can become the game designer we wish we had, and improve the life of your team!",2025-04-07T13:45:19Z,221,2,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+HdUMblHOpk4,Fantastic languages and what to learn from them by Jan Ouwens,"PHP sucks! C# is just a Java rip-off! Kotlin is better than Java! English is just weird!
+
+Wrong.
+
+Every language is cool and unique in its own way and will influence the way you see and use your own favourite language. Put aside your preconceptions, and let me show you what I have learned from working with Java, Ruby, Elm, and yes: even PHP. But what I learned from C# will surprise you!",2025-04-07T13:45:21Z,263,4,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+I1xb9BVtWUQ,"Java 24: A story about code, conflicts and conquer by Lutske de Leeuw","What happens when a Java developer faces tough challenges and needs to level up their skills to succeed? In this session, follow Emma, a back-end developer, as she battles coding conflicts and discovers how Java 24’s latest features can help her conquer them and improve her workflow.
+
+This session tells the story of Emma’s journey through common development struggles, showing how Java 24 features become the tools she uses to solve her problems. Compact Object Headers (JEP 450) reduce memory usage by optimizing object representation, Ahead-of-Time Class Loading (JEP 483) speeds up application startup by pre-loading classes, and Virtual Thread Synchronization (JEP 491) enhances the performance and scalability of concurrent applications. Along the way, Emma learns how these features help her build faster, more efficient, and maintainable applications, all while navigating workplace challenges and striving for personal growth.
+
+Rather than a dry rundown of features, this session offers an engaging and relatable narrative that shows how mastering the latest features can transform not just your code, but your approach to development. Emma’s growth as a developer mirrors how you too can conquer the challenges in your own back-end development journey with Java 24.
+
+Join me for a session filled with drama, humor, and hands-on Java 24 know-how. You’ll laugh, you’ll learn, and maybe, just maybe, you’ll fall in love with Java all over again.",2025-04-07T13:45:21Z,335,5,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+J2ZFY9X7kZs,15 Years of Redis: Introducing Redis 8 by Raphael De Lio,"You probably know Redis as a fast cache, but it's much more than that.
+It's a complete database with persistence, atomic operations, and now, with Redis 8, it's getting even better.
+
+The latest version brings major upgrades: a powerful query engine, native vector search for AI, JSON support for flexible data storage, streams for real-time event processing, and probabilistic data structures for large-scale analytics.
+
+Redis 8 isn't just about speed—it's about smarter data handling, better scalability, and new possibilities.
+In this talk, we'll explore how Redis 8 goes beyond caching and what it means for developers today.",2025-04-07T13:45:21Z,577,24,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+Qo-g2SK5MGo,Observability for developers by Melvin Visch,"Software development has grown increasingly complex, but good things happen when developers and data are closer together. See how, through enhanced experiences and live debugging, developers are empowered with the insights they need to avoid production issues in real-time while building and modifying code more effectively in cloud-native, microservices-based software development.
+
+We’ll explore how observability capabilities tailored to developers help teams explore their data, and leverage innovations to deliver code faster and more securely.",2025-04-07T13:45:21Z,408,6,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+ULr4kKa1Fx4,One chart to rule them all: Simple environment config with Spring Boot and Helm by Sander Verbruggen,"So you know your way around Spring Boot and how to configure your application. And the next step is to deploy it to Kubernetes. Not everyone knows how to do this, so you ask Google and it tells you to use Helm, a deployment tool for Kubernetes. Google says go deep-diving into Helm-charts: write deployments, config-maps, mounts etc. Someone in your team might be experienced in Helm, but only talks """"Helm-charts"""" and you only talk """"Spring Boot"""" and you will find out that those two languages/concepts don't really match. How will you talk to each other and work together?
+
+In this talk I will speed through the Helm setup Google tells you to follow and show you why I think it is not suited for a dedicated Spring Boot developer.
+I'll demonstrate the method we came up with to have your Spring Boot configuration (e.g. application*.yaml) copy/pasted into your Helm configuration and using that to deploy it to Kubernetes.
+
+Topics covered:
+Spring Boot configuration overview including Spring Profiles
+The 'classic' way Google tells you to deploy your Spring Boot app to Kubernetes and why this doesn't work
+Our setup that joins both worlds: finding the middle ground between Spring Boot configuration and Kubernetes' Helm charts
+All in code/demo form, no slides",2025-04-07T13:45:21Z,456,9,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+Vv4rN7jhId0,"Dockerfiles, Buildpacks, Jib and more ... what's the best way to run your Java code in Containers?","By Matthias Haeussler
+
+A typical workflow in a modern software dev project often looks like: Build code, put the built artifact into a container image, put the container image into a registry and deploy to Kubernetes. Each step has its own requirements and pitfalls alike. The overall goal is most often to bake those steps into easily repeatable pipelines and enable a high degree of automation and standardization.
+
+Dockerfiles seems to be the choice with the highest adoption when it comes to containerizing code artefacts. However most Dockerfiles (and also most sample's of Dockerfiles you find in tutorials) do not exploit it to the full potential.
+There are a lot of improvements to be done in how to build and optimize for VM-based applications.
+
+The talk will give deeper insights by comparing (simple and multi-stage) Dockerfiles to Cloud-Native Buildpacks (buildpacks.io/paketo.io), Google’s JIB and jlink under the evaluation criteria of
+build time
+build size
+standardization
+robustness
+memory configuration
+security
+
+The examples and live demo will have certain focus on Java-based frameworks (Spring Boot, Quarkus, Micronaut), but coverage of other languages will also be included and highlighted.",2025-04-07T13:45:21Z,652,17,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+ZN_g_Vdzob4,"Hexagonal Architecture in Practice, Live Coding That Will Make Your Applications More Sustainable","By Julien Topçu
+
+There always comes a point where software becomes so complex and old that it becomes unmaintainable. Updating the technical stack without breaking everything becomes impossible, implementing new features takes longer, and the technical debt is so overwhelming that refactoring becomes exorbitant.
+
+What if we told you that all of this is more of a practice problem than a software aging problem?
+
+Come and discover through hands-on experience in this 100% live coding session how Hexagonal Architecture can tackle software complexity, making it possible for you to be adaptable and sustainable while helping you manage your technical debt more effectively.",2025-04-07T13:45:23Z,1622,48,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+bRwVxIn8MKU,Java's Concurrency Journey Continues! Exploring Structured Concurrency and Scoped Values,"By Hanno Embregts
+
+Java's concurrency journey has been a long and winding one. We departed from the 'classic threads' station and traveled through Runnables, ExecutorServices, CompletableFutures and ForkJoinPools, before finally arriving at 'virtual threads'. But does 'finally' mean that we've arrived at our final destination, or is it a transfer at best?
+
+Now that virtual threads are available, our Java programs will likely use an abundance of threads. This increase in thread count will immediately make thread coordination, observability and isolation more difficult. Two new Java features are currently in development that might make things a bit easier: Structured Concurrency and Scoped Values.
+
+In this talk, we'll introduce and demonstrate these new features, and how they can help address the challenges that have emerged since the introduction of virtual threads. We'll also discuss how the availability of these features will impact your day-to-day programming life and whether Java's concurrency journey is actually over now that these features have become available or if there are still more stops to come.",2025-04-07T13:45:23Z,1183,35,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+fbTPLPKAuhA,Quantum 2 0 is here and it's ready to change the world! by Petra Wevers,"Quantum 2.0 is here, and it's ready to change the world!
+
+This disruptive technology delivers exciting new innovations in areas far out of reach of our current computers.
+Cool stuff is on its way, like for challenges in pattern recognition, optimalisation, modeling natural processes, and precision measurements.
+
+However, as always with new technology, this has a flip side: almost all of our current cryptography is broken in devastating ways!
+The cryptography we've relied on for so many years, like RSA and ECC, no longer protects our data.
+Knowing that data being harvested today can be decrypted makes the need for action even more urgent.
+
+So, what can we do?
+
+Whilst there are no ready-to-go-trails, we have excellent guidance in the PQC-Migrationhandbook by the AIVD.
+Dealing with this huge cybersecurity problem boils down to implementing cryptographic agility and quantum safe cryptography.
+But what does this actually mean?
+And how does this translate to the work of developers and technical architects?
+
+In this talk I'll be sharing the most valuable insights and lessons we've gathered so far.",2025-04-07T13:45:23Z,317,4,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+jCLtfvO_h_E,Securing the Future of AI: Authorization Strategies for RAG Systems with LangChain4J and OpenFGA,"By Deepu Sasidharan
+
+As Retrieval-Augmented Generation (RAG) systems become more prevalent in modern AI applications, ensuring robust authorization frameworks is critical to maintain data privacy, security, and compliance. This talk explores the unique challenges and best practices in designing secure authorization mechanisms tailored for RAG systems. We will dive into real-world scenarios where sensitive data is at risk and examine how Role-Based Access Control (RBAC) and Relationship-Based Access Control (ReBAC) using OpenFGA can be implemented in RAG architectures with LangChain4J.
+
+Attendees will learn how to secure the interaction between the retrieval components and generative models while maintaining the system’s efficiency and accuracy. Whether you're an AI architect, security professional, or developer, this session will provide actionable insights to safeguard the future of AI-driven applications.",2025-04-07T13:45:23Z,315,2,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+jXokM4r-4xU,Are We Ready For The Next Cyber Security Crisis Like Log4Shell? by Soroosh Khodami,"In a world where vulnerabilities like Log4J, Spring4Shell, and the XZ Backdoor make headlines, securing our software ecosystem has never been more critical. In this session, Soroosh, a hands-on solution architect with experience working on security platform services for large enterprises like Rabobank, will share practical strategies and best practices for securing the software development process, applicable to both small startups and large organizations.
+
+Key questions that will be answered in this session:
+Can basic SQL Injection threats extend beyond accessing a database server within a restricted network?
+What is a """"Supply Chain Attack,"""" and how dangerous can it be?
+What are the most effective low-hanging practices to secure your CI/CD process?
+Shift-Left Security & DevSecOps? What’s the hype, and how is it going to redefine the way we build software?
+How can Software Bill of Materials (SBOM) help us prepare for the next Log4Shell crisis?
+What do EU supply chain security-related regulations (DORA/CRA) mean for developers?",2025-04-07T13:45:23Z,446,20,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+ji_KwSrvWpI,From Data to Insights: Implementing Generative AI at scale by Thomas Natschläger,"Discover how to successfully integrate Generative AI into a platform, where an AI driven solution serves the largest global enterprises, handling petabyte-scale data collection and monitoring mission-critical applications.
+
+This talk will explore the goals of the Dynatrace platform, its hypermodel AI Davis, the integration process of Generative AI, and the challenges and triumphs encountered on the path to General Availability (GA) release.
+
+Join us to learn about implementing Generative AI at scale and see how we """"drink our own champagne""""!",2025-04-07T13:45:25Z,217,0,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+lsOkZpb7i2M,Speed Up Your Maven Build x10… Before You Move to Gradle by Sergei Chernov,"Gradle has a lot of performance advantages in comparison to Maven.
+However there can be different blockers to migrate from Maven to Gradle (like release management or CI/CD pipelines), also in a large organization it'll require to teach a lot of engineers the new tooling and there can be pitfalls.
+The good news is that Maven has a lot of potential to speed up the builds.
+
+In this session we'll talk about possible ways to optimize it, starting with trivial things like choosing proper JDK, upgrading to Kotlin 2.0 K2, stop building and deploying redundant artifacts. Also we'll talk about Apache Build Cache and Develocity extensions, extracting code generation to jar dependency and how it will boost the experience in the IDE.
+Then we'll dig deeper to how the Maven Reactor works under the hood and how it builds multi-module projects, what's the main problem of scalability/parallelization there.
+In this section it will be explained why modularization is a key factor, how to find build bottlenecks and how to modularize the build.
+
+Eventually you may make a decision to switch to Gradle if all these optimizations are not enough. But in any case these advices are complementary and will have positive effect for Gradle projects as well.",2025-04-07T13:45:25Z,1428,38,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+nvi1QGZhlGo,RAG: from dumb implementation to serious results by Guillaume Laforge,"Embarking on your Retrieval Augmented Generation journey may seem effortless, but achieving satisfying results often proves challenging. Inaccurate, incomplete, or outdated answers, suboptimal document retrieval, and poor text chunking can quickly dampen your initial enthusiasm.
+
+In this session, we'll leverage LangChain4j to elevate your RAG implementations.
+We'll explore:
+Advanced Chunking Strategies: Optimize document segmentation for improved context and relevance.
+Query Refinement Techniques: Expand and compress queries to enhance retrieval accuracy.
+Metadata Filtering: Leverage metadata to pinpoint the most relevant documents.
+Document Reranking: Reorder retrieved documents for optimal result presentation.
+Agentic Approaches: Take advantage of function calling to build more clever agents.
+Data Lifecycle Management: Implement processes to maintain data freshness and relevance.
+Evaluation and Presentation: Assess the effectiveness of your RAG pipeline and deliver results that meet user expectations.
+
+Join us as we transform your simplistic RAG experience from one of frustration to delight your users with meaningful and accurate answers.",2025-04-07T13:45:26Z,763,20,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+oSGVQIZxi7s,Building AI Agents with Model Context Protocol: From Specification to Implementation,"By Christian Tzolov
+
+The Model Context Protocol (MCP) introduces a powerful approach for AI agent development by standardizing how AI models interact with external tools and resources.
+This talk explores MCP's architecture, diving deep into its core capabilities: tool discovery and execution, resource management with URI templates, and dynamic prompt handling.
+We'll examine how Spring AI MCP - Java MCP SDK, implementation transforms these specifications into practical agent capabilities, demonstrating how to evolve traditional AI applications into full-fledged agents that can interact with external systems, manage resources, and handle complex workflows through standardized interfaces.
+Through live coding examples, we will learn how to combine the Spring AI framework with MCP to create agents that can effectively understand context, make decisions, and take actions across various external systems.",2025-04-07T13:45:25Z,2051,50,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+oZzx3OLDBSo,"Reaching Operational Excellence using OpenTelemetry by Alexander Chatzizacharias, Riccardo Lippolis","After months of working on a new product, it is finally time to deploy it to your production environment and start making money! But there is a problem…
+
+How will you monitor your production environment? How will you know if your application crashes? And when it does, how quickly can you identify the error, fix it, and deploy the patch? Where will you collect your logs, and how will you structure them so that you can easily find the one line that holds the key to solving all your problems?
+
+In this talk, Alexander and Riccardo will explore OpenTelemetry and demonstrate how you can use standardized APIs to ensure your logging is flawless. They will show you how to obtain amazing metrics on your services and how to trace calls through your entire service landscape effortlessly if anything goes wrong. All this will allow you to reach a point where you can sit back and relax, confident that your services are running excellently.",2025-04-07T13:45:25Z,357,6,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+p5PX9V8lzx0,Scale to 0 LLM inference: Cost efficient open model deployment on serverless GPUs by Wietse Venema,"Many companies are interested in running open large language models such as Gemma and Deepseek because it gives them full control over the deployment options, the timing of model upgrades, and the private data that goes into the model. Ollama is an open source LLM inference server. In this 15 minute demo, I'll show you how run Ollama cost-efficiently on serverless GPUs that scale up and down rapidly, including down to zero when there are no incoming requests",2025-04-07T13:45:25Z,423,6,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+r4z9kTrGeTs,Effective software design: The role of men in debugging patriarchy in IT by Kenny Baas Schwegler,"Want to know how patriarchy influences software design and learn practical steps you can immediately apply to foster a shift towards a more inclusive environment. Effective software design relies on integrating diverse perspectives throughout its development process. Research shows that teams with a neuro-diverse background excel in decision-making due to their ability to consider a wider range of ideas, foresee a greater variety of potential challenges, and develop more creative solutions. This becomes particularly clear in collaborative modelling for Domain-Driven Design. The inclusion of varied viewpoints enhances the ability of software models to address business problems effectively, increasing the likelihood of achieving significant product breakthroughs.
+
+However, one social system significantly blocks the flow of development of these diverse perspectives: patriarchy. Patriarchy is a social construct where men predominantly hold power and exercise dominance in areas such as political leadership, moral authority, social privilege, and property ownership. Feminists have been actively working to challenge and change this patriarchal system for the better. Despite these efforts, the system still favours men, maintaining their dominant status, and will not evolve without their active involvement. Additionally, patriarchy limits men as well, endorsing only traits traditionally seen as 'masculine' and disregarding those seen as 'feminine.' This raises the question: how do we start the process of eMANcipation, involve men in the movement towards feminism, and as a result, improve our software design practices?
+
+Join me in this talk as I explore patriarchy and its significant effects on software design. Drawing from personal experiences, I will discuss how patriarchy affects men and argue that for genuine equality, men need to undergo changes too. I will demonstrate how incorporating Process Work and Deep Democracy into software design can bring about the necessary transformation. By adopting the idea of role fluidity, we can start breaking down the patriarchal system in software design, ensuring that every perspective is appreciated and nurtured.",2025-04-07T13:45:26Z,424,10,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+t3VlvpyvdEg,Breaching LLM Powered Applications: Overcoming Security and Privacy Challenges by Brian Vermeer,"LLMs accessing the database and intelligent agents that perform online purchases? The possibilities for AI in applications seem endless but so are their security and data privacy risks. In this session, we’ll address common issues such as prompt injection, key leakage, abuse of private customer data for model training, legal restrictions, and more. In addition, we will show that general security issues in your systems can also influence the behavior and outcome of LLMs.
+During this session, you’ll get a solid overview of the vulnerabilities to avoid, strategies to ensure data privacy compliance and best practices for building secure LLM-powered applications.",2025-04-07T13:45:28Z,1006,24,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+uRpWrcoL4Ws,Debugging with IntelliJ IDEA by Anton Arhipov,"Historically, debuggers are used to help locate and fix bugs. Nowadays, the debugger in IntelliJ IDEA can help you do much more than that. Let's see how the debugger helps make the development process more productive. I demo various features for debugging Java applications, including not-so-standard ones, like:
+
+* Lambda breakpoints
+* Stream chain tracing
+* Dropping the frame
+* Emulated method breakpoint
+* Evaluate and log
+* Non-suspending breakpoints
+* Custom data renderers and more
+
+100% live coding session",2025-04-07T13:45:28Z,3006,66,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+w76ZrXh-EDE,Have you gone MADR? by Johan Hutting,"We all know the challenge of remembering why a certain decision was made and why we decided not to go for a specific alternative.
+This is usually solved by code comments, keeping notes on wiki's, private docs on laptops and so on. What if I told you there is an interesting alternative called MADR: Markdown Any Decision Records?
+
+In this talk we won't just learn what MADR offers in structuring and reading up decisions from the past, but we'll also look at some examples on how to apply this in a team and project. This is not just restricted to architectural decisions! Along with the new MarkDown in JavaDoc available from Java 23 and beyond this will offer a single way to cover your technical documentation.
+
+After this session you should have a clear indication if MADR and MarkDown will help you and your team as well as future teammates efficiently review decisions from the past, and how to get started when it does.",2025-04-07T13:45:28Z,410,2,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+w7BF-7LOG1Y,Quiet on Set: Building an On Air Sign with Open Source Technologies by Danica Fine,"While many of us have adapted to work from home life, one major problem remains: finding an easy way to keep folks in your home away from your workspace when you’re on an important call. Dust off your Raspberry Pi––let’s build a custom on-air sign with Apache Kafka®, Apache Flink®, and Apache Iceberg™!
+
+We’ll begin by writing Python scripts to capture key events––such as when a Zoom meeting is running and when a camera is being used––and produce it into Kafka. The live data are then consumed by a Raspberry Pi script to drive the operation of a custom designed on-air sign. From there, you’ll be introduced to the ins and outs of FlinkSQL for stream processing as we wrangle the data into a better format for downstream use. And, finally, we’ll see Iceberg in action and learn how to use query engines to analyze meeting and recording trends.
+
+By the end of the session, you’ll be well-acquainted with this powerful trio of open source technologies and know how you could use the same scaffolding and scale out a simple, at-home project to millions of users and simultaneous events.",2025-04-07T13:45:28Z,707,16,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+wD2pzuCUTRo,Developer Experience: Building an Environment for Engineering Success by Bas de Groot,"It’s your first day on a new job, and you’ve been given a “quick and easy” feature to build. Shouldn’t take more than a couple of hours. At least, that’s what they said. But as you sit down, ready to dive in, the nightmare unfolds.
+
+The onboarding guide is years out of date. Half a day disappears just setting up your local environment, only for the build to fail mysteriously on your machine.
+Then comes the real fun: your feature depends on three other services, but who owns them? Where are the APIs? Slack messages go unanswered, and the internal docs might as well be written in hieroglyphs. By the time you finally write your first line of code, you’re not just frustrated, you’re drained.
+
+This is the hidden cost of poor Developer Experience. Projects stall, innovation slows, and engineering teams struggle to deliver value.
+But it doesn’t have to be this way. What if you could turn this chaos into clarity? Let’s explore how better Developer Experience isn’t just a productivity boost, it’s a game-changer for entire organizations.",2025-04-07T13:45:28Z,718,13,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+wz0GQbkrr1Q,Clean Architecture for Serverless: Business Logic You Can Take Anywhere by Elena van Engelen Maslova,"As cloud platforms evolve, serverless functions offer scalable solutions, but cloud-specific requirements often make it challenging to keep business logic portable. This session demonstrates building cloud-agnostic business logic in Kotlin using a simplified variant of clean architecture, combined with Spring Cloud Function and headless Gradle modules to separate core logic from cloud-specific code.
+I’ll show how to structure a Kotlin serverless application to keep business logic cloud-agnostic while allowing platform-specific integrations, such as storage, where needed. By isolating core logic, developers can deploy the same business code across providers like AWS Lambda and Azure Functions.
+Through live coding, we’ll explore practical techniques for creating and deploying Kotlin serverless applications with portable business logic.
+Key Takeaways:
+Use clean architecture and Spring Cloud Function to make business logic portable across cloud providers.
+Leverage Gradle modules to enforce boundaries between business logic and cloud-specific code.
+By the end, attendees will have a framework for building cloud-agnostic business logic in Kotlin, ready to implement in their own projects.",2025-04-07T13:45:28Z,2143,34,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+zWNr2E4SqP4,Identity crisis: bending Spring Security to your advanced use cases by Cristian Schuszter,"Let's face it, it takes quite a bit of brainpower to configure Spring Security so it does what you want it to do. The architecture of the library is highly modular, so developers are often faced with issues and subtleties in its configuration, leading to grey hair and wasted time. This talk will go through some common caveats and problems of implementing OAuth2 and OIDC integrations with Spring Security, such as custom authorization, what happens under the hood and points where you can plug in your custom implementations within the architecture.
+
+We'll be doing quite some amount of live coding, as I'll go through various examples of handling modern authorization and authentication scenarios in Spring Boot and Spring Security 6.*. The highlight of the coding session will be overriding and extending the token handlers in order to support user impersonation in our application, a feature that's crucial in large enterprise systems where you're faced with an issue that affects a single user.",2025-04-07T13:45:28Z,672,11,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+g2sJCqiboRs,Supercharging Gradle with Nx by Jason Jean,"Gradle repos often struggle with long build times and complex dependency management, slowing down development cycles.
+Nx is an intelligent build system which sits on top of Gradle to offer faster builds and improved developer experience.
+
+In this session, we'll explore how Nx can dramatically reduce build times of even the largest projects and simplifies developing and shipping complex projects.",2025-04-07T13:45:23Z,322,3,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+DwmiQWw3ZJE,"IT for a Heart  - From Idea to a Life Saving Application by Régina ten Bruggencate, Yasser Arenas","Can the maintenance of AEDs be innovative, while also giving something back to the world around us?
+
+At TrailBlazers, we allocate time each year to focus on innovation and positive impact.
+Innovation can mean new technologies or new ways of working.
+But what if you combine both to create something that can save lives?
+
+The idea arose when a colleague encountered a (well-intended) system relying on scattered Excel sheets, WhatsApp messages, and SMS.
+It was far from secure and made communication difficult. There had to be a better way.
+
+During a hackathon, together with the volunteers of the Amersfoort Resuscitation Network, we developed a new solution: a modern AED webapplication using the latest Java version, the latest Angular version, Spring Boot, Kubernetes and Cypress for front-end testing in the Google cloud.
+This application simplifies AED maintenance and issue reporting to increase the availability of AEDs.
+With a growing group of volunteers, the application is continuously being enhanced and enrichted with new features and actively used for 1 year now.",2025-04-07T13:45:19Z,95,1,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+EUoxDSt2W2s,Scaling Sustainability: IKEA’s Transformation through Domain-Driven Design and Microservices,"By Christopher Salerno
+
+IKEA’s Circular Hub, is evolving to meet growing demand for sustainable practices. This talk explores IKEA’s transformation using Domain-Driven Design (DDD) and microservices to build a flexible, resilient system aligned with sustainability goals.
+As Circular Ventures expand, IKEA’s architecture needs redesign to handle increased demand and integrate with high-traffic systems. The current monolithic structure lacks adaptability, prompting a shift to microservices.
+
+We’ll examine:
+- Rationale for DDD and microservices in scaling sustainability initiatives
+- Designing domains for growth: Reservations, Search, and Notifications
+- Event-driven communication for service decoupling using Solace Event Mesh
+- Phased transition from monolith to microservices
+- Technical implementation: Kubernetes, Spring Boot, and clean architecture patterns
+- Challenges and lessons in managing domain boundaries and team structures
+- Impact on sustainability goals and circular economy features
+Performance and scalability improvements
+
+Attendees will gain insights on:
+- Applying DDD principles to break down monoliths
+- Managing event-driven communication in retail
+- Transitioning to microservices while ensuring business continuity
+- Aligning architecture with sustainability goals
+- Handling high user loads in global services",2025-04-15T11:38:57Z,1798,32,PLRsbF2sD7JVpZ3O01elefwrp9l4yBWoXu
+5vClcyOuFMg,PyData Amsterdam 2025 10-year anniversary | Aftermovie,"Huge 🧡 💙 💜 to everyone who joined PyData Amsterdam 2025 to celebrate our 10-year anniversary! 
+
+Relive the magic! Enjoy the aftermovie and let’s keep spreading the good vibes: sharing knowledge, open practices, and curious minds that make science and data a little more open, a little more human, and a lot more fun! 
+
+Web:https://amsterdam.pydata.org/
+LinkedIn: https://www.linkedin.com/company/pydataamsterdam/",2025-10-31T10:00:18Z,371,5,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+vYZjNQkESr8,Marysia Winkels & Isabelle Donatz-Fest - Help! There Are Humans in My Data! | PyData Amsterdam 2025,"www.pydata.org
+
+Good quality data is the basis for high quality models and valuable data insights. But isn't it annoying how often your data is riddled with those pesky humans? Human involvement in data creation often introduces errors, misunderstandings, and biases that can compromise data integrity. This talk will explore how human factors influence the data creation process and what we as data professionals can do to account for this in our data interpretation and usage.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:01:30Z,281,1,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+RIIfZ_Akeoc,Inge van den Ende - Kickstart Your Probabilistic Forecasting | PyData Amsterdam 2025,"www.pydata.org
+
+Probabilistic forecasting is essential, but choosing the right method is tricky. This talk introduces two lesser-known models — Level Set Forecaster and Quantile Regression Forest — that help you kickstart probabilistic forecasting without unnecessary complexity.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:45Z,2244,91,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+QgeUo-6k4oA,Muhammad Chenariyan Nakhaee - Searching for My Next Chart | PyData Amsterdam 2025,"www.pydata.org
+
+As a data visualization practitioner, I frequently draw inspiration from the diverse and rapidly expanding community, particularly through challenges like #TidyTuesday. However, the sheer volume of remarkable visualizations quickly overwhelmed my manual curation methods—from Pinterest boards to Notion pages. This created a significant bottleneck in my workflow, as I found myself spending more time cataloging charts than actively creating them.
+
+In this talk, I will present a RAG (Retrieval Augmented Generation) based retrieval system that I designed specifically for data visualizations. I will detail the methodology behind this system, illustrating how I addressed my own workflow inefficiencies by transforming a dispersed collection of charts into a semantically searchable knowledge base. This project serves as a practical example of applying advanced AI techniques to enhance creative technical work, demonstrating how a specialized retrieval system can significantly improve the efficiency and quality of data visualization creation process.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:39Z,447,16,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+Ine-PoXYWeM,Lightning Talks | PyData Amsterdam 2025,"www.pydata.org
+
+Lightning talks are 5-minute talks on any topic of interest to the PyData community.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:32Z,287,11,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+IvFlpJ7OurY,Iryna Kondrashchenko & Oleh Kostromin - Is Prompt Engineering Dead? | PyData Amsterdam 2025,"www.pydata.org
+
+The rise of LLMs has elevated prompt engineering as a critical skill in the AI industry, but manual prompt tuning is often inefficient and model-specific. This talk explores various automatic prompt optimization approaches, ranging from simple ones like bootstrapped few-shot to more complex techniques such as MIPRO and TextGrad, and showcases their practical applications through frameworks like DSPy and AdalFlow. By exploring the benefits, challenges, and trade-offs of these approaches, the attendees will be able to answer the question: is prompt engineering dead, or has it just evolved?
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:25Z,548,13,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+C4yionrbkMM,Manu Joseph - Real-Time Context Engineering for LLMs | PyData Amsterdam 2025,"www.pydata.org
+
+Context engineering has replaced prompt engineering as the main challenge in building agents and LLM applications. Context engineering involves providing LLMs with relevant and timely context data from various data sources, which allows them to make context-aware decisions. The context data provided to the LLM must be produced in real-time to enable it to react intelligently at human perceivable latencies (a second or two at most). If the application takes longer to react, humans would perceive it as laggy and unintelligent.
+In this talk, we will introduce context engineering and motivate for real-time context engineering for interactive applications. We will also demonstrate how to integrate real-time context data from applications inside Python agents using the Hopsworks feature store and corresponding application IDs. Application IDs are the key to unlock application context data for agents and LLMs. We will walk through an example of an interactive application (TikTok clone) that we make AI-enabled with Hopsworks.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:18Z,314,4,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+DxwDaoUijTc,KEYNOTE: Hannes Mühleisen - Data Architecture Turned Upside Down | PyData Amsterdam 2025,"www.pydata.org
+
+Every data architecture diagram out there makes it abundantly clear who's in charge: At the bottom sits the analyst, above that is an API server, and on the very top sits the mighty data warehouse. This pattern is so ingrained we never ever question its necessity, despite its various issues like slow data response time, multi-level scaling issues, and massive cost.
+
+But there is another way: Disconnect of storage and compute enables localization of query processing closer to people, leading to much snappier responses, natural scaling with client-side query processing, and much reduced cost.
+
+In this talk, it will be discussed how modern data engineering paradigms like decomposition of storage, single-node query processing, and lakehouse formats enable a radical departure from the tired three-tier architecture. By inverting the architecture we can put user's needs first. We can rely on commoditised components like object store to enable fast, scalable, and cost-effective solutions.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:17Z,3918,125,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+9YAVD3kwU58,Rodrigo Loredo & Oscar Ligthart - Orchestrating success | PyData Amsterdam 2025,"www.pydata.org
+
+At Vinted, Europe’s largest second-hand marketplace, over 20 decentralized data teams generate, transform, and build products on petabytes of data. Each team utilizes their own tools, workflows, and expertise. Coordinating data pipeline creation across such diverse teams presents significant challenges. These include complex inter-team dependencies, inconsistent scheduling solutions, and rapidly evolving requirements.
+
+This talk is aimed at data engineers, platform engineers, and technical leads with experience in workflow orchestration and will demonstrate how we empower teams at Vinted to define data pipelines quickly and reliably. We will present our user-friendly abstraction layer built on top of Apache Airflow, enhanced by a Python code generator. This abstraction simplifies upgrades and migrations, removes scheduler complexity, and supports Vinted’s rapid growth. Attendees will learn how Python abstractions and code generation can standardize pipeline development across diverse teams, reduce operational complexity, and enable greater flexibility and control in large-scale data organizations. Through practical lessons and real-world examples of our abstraction interface, we will offer insights into designing scheduler-agnostic architectures for successful data pipeline orchestration.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:12Z,329,8,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+Au981BTAcAk,Gergely Daroczi - Resource Monitoring and Optimization with Metaflow | PyData Amsterdam 2025,"www.pydata.org
+
+Metaflow is a powerful workflow management framework for data science, but optimizing its cloud resource usage still involves guesswork. We have extended Metaflow with a lightweight resource tracking tool that automatically monitors CPU, memory, GPU, and more, then recommends the most cost-effective cloud instance type for future runs. A single line of code can save you from overprovisioned costs or painful job failures!
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:12Z,214,4,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+5i8tEvrYEyQ,Raphael Mitsch - Sieves - Plug-and-Play NLP Pipelines With Zero-Shot Models | PyData Amsterdam 2025,"www.pydata.org
+
+Generative models are dominating the spotlight lately - and rightly so. Their flexibility and zero-shot capabilities make it incredibly fast to prototype NLP applications. However, one-shotting complex NLP problems often isn't the best long-term strategy. Decomposing problems into modular, pipelined tasks leads to better debuggability, greater interpretability, and more reliable performance.
+
+This modular pipeline approach pairs naturally with zero- and few-shot (ZFS) models, enabling rapid yet robust prototyping without requiring large datasets or fine-tuning. Crucially, many real-world applications need structured data outputs—not free-form text. Generative models often struggle to consistently produce structured results, which is why enforcing structured outputs is now a core feature across contemporary NLP tools (like Outlines, DSPy, LangChain, Ollama, vLLM, and others).
+
+For engineers building NLP pipelines today, the landscape is fragmented. There’s no single standard for structured generation yet, and switching between tools can be costly and frustrating. The NLP tooling landscape lacks a flexible, model-agnostic solution that minimizes setup overhead, supports structured outputs, and accelerates iteration.
+
+Introducing Sieves: a modular toolkit for building robust NLP document processing pipelines using ZFS models.
+
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:10Z,220,5,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+1FtgiA1VPi4,Arda Kaygan - Techie vs Comic - The sequel | PyData Amsterdam 2025,"www.pydata.org
+
+A data scientist by day and a standup comedian by night. This was how Arda described himself prior to his critically acclaimed performance about his two identities during PyData 2024, where they merged.
+
+Now he doesn't even know.
+
+After another year of stage performances, awkward LinkedIn interactions and mysterious cloud errors, Arda is back for another tale of absurdity. In this closing talk, he will illustrate the hilarity of his life as a data scientist in the age of LLMs and his non-existent comfort zone, proving good sequels can exist
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-31T04:00:03Z,114,1,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+yKXW1NE8yyg,Shimanto Rahman - Optimize the Right Thing | PyData Amsterdam 2025,"www.pydata.org
+
+Not all mistakes in machine learning are equal—a false negative in fraud detection or medical diagnosis can be far costlier than a false positive. Cost-sensitive learning helps navigate these trade-offs by incorporating error costs into the training process, leading to smarter decision-making. This talk introduces Empulse, an open-source Python package that brings cost-sensitive learning into scikit-learn. Attendees will learn why standard models fall short in cost-sensitive scenarios and how to build better classifiers with Scikit-Learn and Empulse.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:01:17Z,553,24,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+m6OW9pLCvjw,George Chouliaras & Antonio Castelli - Scaling Trust | PyData Amsterdam 2025,"www.pydata.org
+
+Recently, the integration of Generative AI (GenAI) technologies into both our personal and professional lives has surged. In most organizations, the deployment of GenAI applications is on the rise, and this trend is expected to continue in the foreseeable future. Evaluating GenAI systems presents unique challenges not present in traditional ML. The main peculiarity is the absence of ground truth for textual metrics such as: text clarity, location extraction accuracy, factual accuracy and so on. Nevertheless the non-negligible model serving cost demands an even more thorough evaluation of the system to be deployed in production.
+
+Defining the metric ground truth is a costly and time consuming process requiring human annotation. To address this, we are going to present how to evaluate LLM-based applications by leveraging LLMs themselves as evaluators. Moreover we are going to outline the complexities and evaluation methods for LLM-based Agents which operate with autonomy and present further evaluation challenges. Lastly, we will explore the critical role of evaluation in the GenAI lifecycle and outline the steps taken to integrate these processes seamlessly.
+
+Whether you are an AI practitioner, user or enthusiast, join us to gain insights into the future of GenAI evaluation and its impact on enhancing application performance.
+
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:01:05Z,300,2,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+oOqRctpii6I,Vincent Warmerdam - Untitled13.ipynb | PyData Amsterdam 2025,"www.pydata.org
+
+For well over a decade, Python notebooks revolutionized our field. They gave us so much creative freedom and dramatically lowered the entry barrier for newcomers. Yet despite all this ... it has been a decade! And the notebook is still in roughly the same form factor.
+
+So what if we allow ourselves to rethink notebooks ... really rethink it! What features might we come up with? Can we make the notebook understand datasources? What about LLMs? Can we generate widgets on the fly? What if we make changes to Python itself?
+
+This presentation will be a stream of demos that help paint a picture of what the future might hold. I will share my latest work in the anywidget/marimo ecosystem as well as some new hardware integrations.
+
+The main theme that I will work towards: if you want better notebooks, reactive Python might very well be the future.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:57Z,1937,73,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+gAK_KYgBdkI,Iva Gornishka & Laurens Samson - Evaluating the alignment of LLMs | PyData Amsterdam 2025,"www.pydata.org
+
+The City of Amsterdam is researching the responsible adoption of Large Language Models (LLMs) by evaluating their performance, environmental impact, and alignment with human values. In this talk, we will share how we develop tailored benchmarks and a dedicated assessment platform to raise awareness and guide responsible implementation.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:51Z,228,3,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+__9ObeEdF-w,Vitalie Spinu - Optimal Observability | PyData Amsterdam 2025,"www.pydata.org
+
+This talk presents a principled methodology for partitioning item-level data into homogeneous time-series, with the objective of maximizing monitoring coverage and improving the detection of anomalies and drifts. We discuss the theoretical underpinnings of clustering algorithms for this task and describe practical algorithms enabling efficient search for optimal partitioning. We exemplify our approach with a real-world application in large-scale monitoring environments from the online payment domain.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:46Z,207,1,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+b12AicI0-Ys,Maria Bader - How to Keep Your LLM Chatbots Real - A Metrics Survival Guide | PyData Amsterdam 2025,"www.pydata.org
+
+In this brave new world of vibe coding and YOLO-to-prod mentality, let’s take a step back and keep things grounded (pun intended). None of us would ever deploy a classical ML model to production without clearly defined metrics and proper evaluation, so let's talk about methodologies for measuring performance of LLM-powered chatbots. Think of retriever recall, answer relevancy, correctness, faithfulness and hallucination rates. With the wild west of metric standards still in full swing, I’ll guide you through the challenges of curating a synthetic test set, and selecting suitable metrics and open-source packages that help evaluating your use case. Everything is possible, from simple LLM-as-a-judge approaches like those inherent to many packages like MLFLow now up to complex multi-step quantification approaches with Ragas. If you work in the GenAI space or with LLM-powered chatbots, this session is for you! Prior or background knowledge is of advantage, but not required.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:46Z,369,9,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+HzUUuRKFbws,Dima Baranetskyi - Kafka Internals I Wish I Knew Sooner | PyData Amsterdam 2025,"www.pydata.org
+
+Most of us start with Kafka by building a simple producer/consumer demo. It just works — until it doesn’t. Suddenly, disk space isn’t freed up after data “expires,” rebalances loop endlessly during deploys, and strange errors about missing leaders clog your logs.
+In the panic, we dive into Kafka’s ocean of config options — hoping something will stick. Sound familiar?
+
+This talk is a collection of hard-won lessons — not flashy tricks, but the kind of insights you only gain after operating Kafka in production for years. You’ll walk away with mental models that make Kafka’s internal behavior more predictable and less surprising.
+
+We’ll cover:
+
+- Storage internals: Why expired data doesn’t always free space — and how Kafka actually reclaims disk
+- Transactions & delivery semantics: What “exactly-once” really means, and when it silently downgrades
+- Consumer group rebalancing: Why rebalances loop, and how the controller’s hidden behavior affects them
+
+If you’ve used Kafka — or plan to — these insights will save you hours of frustration and debugging.
+A basic understanding of partitions, replication, and Kafka’s general architecture will help get the most out of this session.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:32Z,244,5,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+PHJdsfj4qF4,Miguel Leite & Vitalii Zhebrakovskyi - Declarative Feature Engineering | PyData Amsterdam 2025,"www.pydata.org
+
+Building ML features at scale shouldn’t require every ML Scientist to become an expert in Spark or Flink. At Adyen, the Feature Platform team built a Python-based DSL that lets data scientists define features declaratively — while automatically generating the necessary batch or real-time pipelines behind the scenes.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-30T04:00:27Z,438,1,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+s8gOgYTKO5E,KEYNOTE: Dr. Maria Börner - Ethics is Not a Feature | PyData Amsterdam 2025,"www.pydata.org
+
+Ethics is often treated like a product feature—something to be added at the end, polished for compliance, or marketed for trust. But what if that mindset is exactly what’s holding us back?
+In this keynote, we’ll challenge the idea that ethics is optional or external to the development process. We’ll explore how ethical blind spots in AI systems—from biased models to black-box decisions to unsustainable compute—aren’t just philosophical dilemmas, but human failures with real-world consequences.
+You’ll learn how to spot ethical risks before they become failures, and discover practical tools and mindsets to build AI that earns trust—without compromising on innovation. From responsible data practices to transparency techniques and green AI strategies, we’ll connect the dots between values and code.
+This isn’t just a lecture—it’s a call to rethink how we build the future of AI—together.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:01:13Z,252,2,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+q_OduNPFkLg,Danica Fine - Quiet on Set - Building an On-Air Sign with Open Source Tech | PyData Amsterdam 2025,"www.pydata.org
+
+Using a Raspberry Pi and a powerful trio of open-source technologies—Apache Kafka, Apache Flink, and Apache Iceberg—learn how to build a custom on-air sign to signal when you're on a call and discover how this same scaffolding can be scaled for millions of users.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:01:09Z,295,5,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+k49496sH9aw,Gerben Dekker - The Gentle Monorepo - Ship Faster and Collaborate Better | PyData Amsterdam 2025,"www.pydata.org
+
+Monorepos promise faster development and smoother cross-team collaboration, but they often seem intimidating, requiring major tooling, buy-in, and process changes. This talk shows how Dexter gradually introduced a Python monorepo by combining a few lightweight tools with a pragmatic, trust-based approach to adoption. The result is that we can effectively reuse components across our various energy forecasting and trade optimization products. We iterate quicker on bringing our research to production, which benefits our customers and supports the renewable energy transition. After this talk, you’ll walk away with a practical blueprint for introducing a monorepo in your context, without requiring heavy up-front work.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:57Z,1106,27,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+ejAfDijPGfg,"KEYNOTE: Judith Dijk - Image processing, AI, and autonomous systems | PyData Amsterdam 2025","www.pydata.org
+
+In this talk, an overview of the field of image processing and the impact of artificial intelligence on this field are shown. Starting from the different tasks that can be performed with image processing, solutions using different AI technologies are shown, including the use of generative AI. Finally, the effect of AI for autonomous systems, and the challenges that are faced are discussed.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:52Z,247,1,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+bFTPSq3l-lE,Sayak Paul & Benjamin Bossan - Designing tests for ML libraries | PyData Amsterdam 2025,"www.pydata.org
+
+In this talk, we will cover how to write effective test cases for machine learning (ML) libraries that are used by hundreds of thousands of users on a regular basis. Tests, despite their well-established need for trust and foolproofing, often get less prioritized. Later, this can wreak havoc on massive codebases, with a high likelihood of introducing breaking changes and other unpleasant situations. This talk deals with our approach to testing our ML libraries, which serve a wide user base. We will cover a wide variety of topics, including the mindset and the necessity of minimal-yet-sufficient testing, all the way up to sharing some practical examples of end-to-end test suites.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:46Z,378,18,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+EWWd3kPbIwU,Yuliya Sapega & Joanna Pasiarska - Applying Privacy-Enhancing Technologies | PyData Amsterdam 2025,"www.pydata.org
+
+Privacy-Enhancing Technologies (PETs) promise to bridge the gap between data utility and privacy — but how do they perform in practice? In this talk, we’ll share real-world insights from our hands-on experience testing and implementing leading PET solutions across various data science use cases.
+We explored tools such as differential privacy libraries, homomorphic encryption frameworks, federated learning, multi-party computation, etc. Some lived up to their promise — others revealed critical limitations.
+You’ll walk away with a clear understanding of which PET solutions work best for which types of data and analysis, what trade-offs to expect, and how to set realistic goals when integrating PETs into your workflows. This session is ideal for data professionals and decision-makers who are navigating privacy risks while still wanting to innovate responsibly.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:30Z,173,4,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+JP5z4BPeGs4,Jaap Stefels & Itzel Belderbos - No labels? No problem! | PyData Amsterdam 2025,"www.pydata.org
+
+Card testing is one of the largest growing fraud problems within the payments landscape, with fraudsters launching millions of attempts globally each month. These attacks can cost companies thousands of euros in lost revenue and lead to the distribution of private card details. Detecting this type of fraud is extremely difficult without confirmed labels to train standard supervised ML classifiers. In this talk, we’ll describe how we built a production-ready ML model that now processes hundreds of transactions per second and share the key take-aways from our journey.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:22Z,446,9,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+NC_7RbJ0yp4,Bauke Brenninkmeijer - Context is King | PyData Amsterdam 2025,"www.pydata.org
+
+Grounding Large Language Models in your specific data is crucial, but notoriously challenging. Retrieval-Augmented Generation (RAG) is the common pattern, yet practical implementations are often brittle, suffering from poor retrieval, ineffective chunking, and context limitations, leading to inaccurate or irrelevant answers. The emergence of massive context windows (1M+ tokens) seems to offer a simpler path – just put all your data in the prompt! But does it truly solve the ""needle in a haystack"" problem, or introduce new challenges like prohibitive costs and information getting lost in the middle? This talk dives deep into the engineering realities. We'll dissect common RAG failure modes, explore techniques for building robust RAG systems (advanced retrieval, re-ranking, query transformations), and critically evaluate the practical viability, costs, and limitations of leveraging long context windows for complex data tasks in Python. Leave understanding the real trade-offs to make informed architectural decisions for building reliable, data-grounded GenAI applications.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:22Z,231,6,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+7KPLZQzBzHI,Denis Gaitan & Agustin Iniguez - Monitoring of model drift in Finance | PyData Amsterdam 2025,"www.pydata.org
+
+In today’s financial sector, the continuous accuracy and reliability of machine learning models are crucial for operational efficiency and effective risk management. With the rise of MLOps (Machine Learning Operations), automating monitoring mechanisms has become essential to ensure model performance and compliance with regulations. This presentation introduces a method for continuous monitoring of model drift, highlighting the benefits of automation within the MLOps framework. This topic is particularly interesting because it addresses a common challenge in maintaining model performance over time and demonstrates a practical solution that has been successfully implemented in the bank.
+
+This talk is aimed at data scientists, machine learning engineers, and MLOps practitioners who are interested in automating the monitoring of machine learning models. Attendees will be guided on how to continuous monitor model drift within the MLOps framework. They will understand the benefits of automation in this context, and gain insights into MLOps best practices. A basic understanding of MLOps principles, and statistical techniques for model evaluation will be helpful but not strictly needed.
+
+The presentation will be an informative talk with a focus on the design and implementation. It will include some mathematical concepts but will primarily be demonstrating real-world applications and best practices. At the end we encourage you to actively monitor model drift and automate your monitoring processes to enhance model accuracy, scalability, and compliance in your organizations.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-29T04:00:17Z,193,2,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+9qpJRY74bbQ,Florenz Hollebrandse - Fast-Track Your AI-ML Model Integration | PyData Amsterdam 2025,"www.pydata.org
+
+""How quickly will you be able to get this model into production?"" is a common question in analytical projects. Often, this is the first time anyone considers the complexities of deploying models within enterprise systems.
+
+This talk introduces an approach to enhance the success rate of complex AI/ML integration projects while reducing time-to-market. Using examples from global banks J.P. Morgan and ING, we will demonstrate team organisation and engineering patterns to achieve this.
+
+This talk is ideal for data scientists, engineers, and product managers interested in adopting an efficient Model Development Lifecycle (MDLC).
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:46:16Z,179,4,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+uKjo8DfU_w8,Wesley Boelrijk - Time Series Decomposition with PyMC | PyData Amsterdam 2025,"www.pydata.org
+
+Forecasting time series can be messy, data is often missing, noisy, or full of structural changes like holidays, outliers, or evolving patterns. This talk shows how to build interpretable time series decomposition models using PyMC, a modern probabilistic programming library.
+
+We’ll break time series into trend, seasonality, and noise components using engineered time features (e.g., Fourier and Radial Basis Functions). You’ll also learn how to model correlated series using hierarchical priors, letting multiple time series ""learn from each other."" As a case study, we’ll analyze Formula 1 lap time data to compare drivers and explore performance consistency using Bayesian posteriors.
+
+This is a hands-on, code-first talk for data scientists, ML engineers, and researchers curious about Bayesian modeling (or Formula 1). Familiarity with Python and basic statistics is helpful, but no deep knowledge of Bayes is required.
+
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:46:03Z,766,30,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+SnD9qN2qbhY,Maarten de Ruiter - GenAI governance in practice | PyData Amsterdam 2025,"www.pydata.org
+
+Governing generative AI systems presents unique challenges, particularly for teams dealing with diverse GenAI subdomains and rapidly changing technological landscapes. In this talk, Maarten de Ruiter, Data Scientist at Xomnia, shares practical insights drawn from real-world GenAI use-cases. He will highlight essential governance patterns, address common pitfalls, and provide actionable strategies for teams utilizing both open-source tools and commercial solutions. Attendees will gain concrete recommendations that work in practice, informed by successes (and failures!) across multiple industries
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:45:47Z,184,3,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+iC9F7Az5olQ,Netesh & Nazlı Alagöz - Causal Inference Framework for incrementality | PyData Amsterdam 2025,"www.pydata.org
+
+This talk dives into the challenge of measuring the causal impact of app installs on customer loyalty and value, a question at the heart of data-driven marketing. While randomized controlled trials are the gold standard, they’re rarely feasible in this context. Instead, we’ll explore how observational causal inference methods can be thoughtfully applied to estimate incremental value with careful consideration of confounding, selection, and measurement biases.
+
+This session is designed for data scientists, marketing analysts, and applied researchers with a working knowledge of statistics and causal inference concepts. We’ll keep the tone practical and informative, focusing on real-world challenges and solutions rather than heavy mathematical derivations.
+
+Attendees will learn:
+
+- How to design robust observational studies for business impact
+- Strategies for covariate selection and bias mitigation
+- The use of multiple statistical and design-based causal inference approaches
+- Methods for validating and refuting causal claims in the absence of true randomization. We’ll share actionable insights, code snippets, and a GitHub repository with example workflows so you can apply these techniques in your own organization. By the end of the talk, you’ll be equipped to design more transparent and credible causal studies-and make better decisions about where to invest your marketing dollars.
+
+Requirements: A basic understanding of causal inference and Python is recommended. Materials and relevant links will be shared during the session
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:45:36Z,308,10,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+bkJRzF9Lk9Q,Sven Arends - Counting Groceries with Computer Vision | PyData Amsterdam 2025,"www.pydata.org
+
+In this talk, we'll share how we're using computer vision to automate stock counting, right on the conveyor belt. We'll discuss the challenges we've faced with the hardware, software, and GenAI components, and we'll also review our own benchmark results for the various state-of-the-art models. Finally, we'll cover the practical aspects of GenAI deployment, including prompt optimization, preventing LLM ""yapping,"" and creating a robust feedback loop for continuous improvement.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:45:13Z,146,3,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+E2PUxfzhLXo,Konstantinos Tsoumas - Uncertainty Unleashed | PyData Amsterdam 2025,"www.pydata.org
+
+There are a lot of models working in production as you're reading this. Lots of them are giving uncalibrated outputs without being explicit on how much one can trust the result. Especially when it comes to imbalanced datasets.
+
+More so, relying on biased estimates can lead to overly aggressive decisions. In this hands‑on talk, we’ll demystify conformal methods using MNIST—the world’s favorite handwritten‑digit playground (to make the talk more fun & interactive)- with two goals in mind: explain & prove what an unbiased guarantee is and how it can be calculated but also why should you care and why does it matter so much. Attendees may leave equipped with: uncertainty guarantee understanding in classification, identify common pitfalls that lead to biased uncertainty estimates, how to apply it (even in difficult contexts like imbalanced datasets - an example will be given).
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:45:03Z,255,10,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+qi8-LZ8sPBo,Irene Donato & Antonino Ingargiola - Large-Scale Video Intelligence | PyData Amsterdam 2025,"www.pydata.org
+
+The explosion of video data demands search beyond simple metadata. How do we find specific visual moments, actions, or faces within petabytes of footage? This talk dives into architecting a robust, scalable multi-modal video search system.
+We will explore an architecture combining efficient batch preprocessing for feature extraction (including person detection, face/CLIP-style embeddings) with optimized vector database indexing. Attendees will learn practical strategies for managing massive datasets, optimizing ML inference (e.g., lightweight models, specialized runtimes), and bridging pre-computed indexes with real-time analysis for deeper insights. This session is for data scientists, ML engineers, and architects looking to build sophisticated video understanding capabilities.
+
+Audience: Data Scientists, Machine Learning Engineers, Data Engineers, System Architects.
+
+Takeaway: Attendees will learn architectural patterns and practical techniques for building scalable multi-modal video search systems, including feature extraction, vector database utilization, and ML pipeline optimization.
+
+Background Knowledge: Familiarity with Python, core machine learning concepts (e.g., embeddings, classification), and general data processing pipelines is beneficial. Experience with video processing or computer vision is a plus but not strictly required.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:44:51Z,299,13,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+q1L70vEbn20,Manuel Spierenburg - Should Captain America Still Host Your Data? | PyData Amsterdam 2025,"www.pydata.org
+
+When you store data in the cloud, do you know who really controls it? In an era of increasing geopolitical tension and growing awareness around digital sovereignty, Dutch research institutes have already begun repatriating sensitive data from US servers to Dutch-controlled storage. This talk explores the hidden risks behind common cloud choices, from legal access by foreign governments to the ethical implications of supporting politically active tech giants. We’ll look at what it means to own your data, how regional storage might not be enough, and what it takes to build an EU-hosted, open-source data platform stack. If you’re a data engineer, architect, or technology leader who cares about privacy, control, and sustainable infrastructure, this talk will equip you with the insight—and motivation—to make different choices.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:44:36Z,171,7,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+XXDScSPV0ko,KEYNOTE: Demetrios Brinkmann-The agentification of software has a UX problem | PyData Amsterdam 2025,"www.pydata.org
+
+The ""agentification"" of software promises a future where we simply tell a machine what we want, and it handles the rest. We have all felt that magic when vibe coding. So why can't every interaction with machines be that magical?
+
+Well, what if the dominant chat-based interface is a dead end?
+
+This talk explores the significant UX challenges of agentification. We’ll discuss why chat is an over-promising and under-delivering medium, and how we're losing the rich, high-bandwidth context of human communication.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T17:44:11Z,253,8,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
+qc0T6Ya04vY,Fabio Lipreri & Gabriele Orlandi - Model Context Protocol | PyData Amsterdam 2025,"www.pydata.org
+
+Large‑language‑model agents are only as useful as the context and tools they can reach.
+
+Anthropic’s Model Context Protocol (MCP) proposes a universal, bidirectional interface that turns every external system—SQL databases, Slack, Git, web browsers, even your local file‑system—into first‑class “context providers.”
+
+In just 30 minutes we’ll step from high‑level buzzwords to hands‑on engineering details:
+
+- How MCP’s JSON‑RPC message format, streaming channels, and version‑negotiation work under the hood.
+- Why per‑tool sandboxing via isolated client processes hardens security (and what happens when an LLM tries rm ‑rf /).
+- Techniques for hierarchical context retrieval that stretch a model’s effective window beyond token limits.
+- Real‑world patterns for accessing multiple tools—Postgres, Slack, GitHub—and plugging MCP into GenAI applications.
+
+Expect code snippets and lessons from early adoption.
+
+You’ll leave ready to wire your own services into any MCP‑aware model and level‑up your GenAI applications—without the N×M integration nightmare.
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. 
+
+PyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+00:00 Welcome!
+00:10 Help us add time stamps or captions to this video! See the description for details.
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",2025-10-28T15:52:25Z,138,0,PLGVZCDnMOq0qFokF2chnzTq4VtIcFXG5P
